@@ -1,0 +1,164 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.screenshot-area .phone-mockup {
+	    width: 28.4%;
+	}
+	.footer-link h5 {
+		font-size: 15px;
+	}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.hero-area {
+	    padding-top: 60px;
+	    padding-bottom: 185px;
+	}
+	.btn-hero {
+	    padding: 12px 20px;
+	}
+	.hero-content {
+	     margin-top: 0px; 
+	}
+	.hero-content h1 {
+	    font-size: 38px;
+	}
+	.hero-img {
+	    margin-left: 30px;
+	    width: 100%;
+	}
+	.overview-single {
+		margin-bottom: 30px;
+	}
+	.overview-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.app-about-area {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.app-about-img {
+		margin-bottom: 50px;
+	}
+	.special-feature-content {
+		margin-bottom: 50px;
+	}
+	.single-fun-fact {
+		margin-bottom: 50px;
+	}
+	.fun-fact-area {
+		padding-bottom: 25px;
+	}
+	.screenshot-area {
+		padding-top: 50px;
+	}
+	.screenshot-area .phone-mockup {
+		width: 51.4%;
+	}
+	.blog-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.single-blog {
+		margin-bottom: 30px;
+	}
+	.footer-content {
+		margin-bottom: 40px;
+	}
+
+}
+
+/* mobile :767px. */
+@media (max-width: 767px) {
+	.hero-img {
+		display: none;
+	}
+	.hero-area::before {
+		display: none;
+	}
+	.hero-area {
+		padding-top: 120px;
+		padding-bottom: 100px;
+	}
+	.hero-content h1 {
+	    font-size: 30px;
+	}
+	.app-about-img {
+		margin-bottom: 40px;
+	}
+	.overview-single {
+	    margin-bottom: 30px;
+	}
+	.single-fun-fact {
+	    margin-bottom: 50px;
+	}
+	.screenshot-area .phone-mockup {
+	    display: none;
+	}
+	.single-blog {
+	    margin-bottom: 40px;
+	}
+	.blog-img img {
+	    width: 100%;
+	}
+	section#blog {
+	    padding-bottom: 30px;
+	    padding-top: 30px;
+	}
+	.footer-content,
+	.footer-link {
+	    margin-bottom: 50px;
+	}
+	.overview-area,
+	.app-about-area,
+	.special-feature-area,
+	.fun-fact-area,
+	.more-feature-area,
+	.screenshot-area,
+	.blog-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.pl-30 {
+	    padding-left: 0px;
+	}
+}
+
+/*brand fix*/
+@media (max-width: 575px) {
+	.screenshot-area .phone-mockup {
+		display: block;
+	    width: 88%;
+	}
+	.owl-carousel .owl-item img {
+	    width: 50%;
+	    margin-left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	}
+	.screenshot-area {
+		padding-bottom: 125px;
+	}
+}
+
+/*button fix*/
+@media (max-width: 360px) {
+	.btn-outline {
+	    margin-left: 0;
+	    margin-top: 20px;
+	}
+	.btn {
+	    display: block;
+	}
+}
